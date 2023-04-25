@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IonicModule } from '@ionic/angular';
+import { HomeComponent } from './components/pages/home/home.component';
+import { DetailComponent } from './components/pages/detail/detail.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DetailComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
