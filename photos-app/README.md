@@ -1,3 +1,3 @@
 # PhotosApp
 
-Probando Ionic! :) 
+Probando Angular con Ionic! :) 
